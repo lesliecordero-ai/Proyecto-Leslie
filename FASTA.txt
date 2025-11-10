@@ -1,0 +1,36 @@
+WSL=Permite acceder al subsistema Linux dentro de Windows 
+Clonar archivos en git hub:
+1. git clone (link de github)
+2. Crear un archivo: touch (nombre archivo)
+3. Copiar un archivo fasta en el archivo vacio con cp 
+4. Ingresar al archivo con nano y luego salir
+Ctrl + O → Guardar cambios
+Enter → Confirmar nombre del archivo	
+Ctrl + X → Salir del editor
+5. Agregar l archivo al area de preparacion de github: git add (nombre de archivo creado)
+6. Muestra los archivos modificados, nuevos o pendientes de subir al repositorio: git status (archivo)
+
+8. Corre el comando "git push origin main" si sale error intentas lo siguiente:
+git config --global user.name "usuario github"
+git config --global user.email "correo github" 
+Luego vuelve a colocar el comando git push origin main
+9. Revisar si se hicieron los cambios en github
+Asi mismo con las proteinas
+
+Conceptos basicos:
+Git hub: es una plataforma en la nube donde puedes almacenar, compartir y colaborar con otros para escribir código 
+Herramienta para buscar enzimas en el metabolismo: KEGG
+Bases de datos: http://www.ebi.ac.uk/ena  NCBI
+Busqueda de proteinas: proteindatabank, uniprot, interprot
+
+Proceso bioinformático para identificar: bacterias multirresistentes, flavivirus, culicoides
+a) Flavivirus
+Paso 1: Extracción de ARN viral
+1. Extraer ARN viral total de la muestra biológica.
+Paso 2: Transcripción inversa
+Se sintetiza el ARN viral a ADN complementario (ADNc) usando transcriptasa inversa y
+primers universal y oligonucleótidos cortos.
+Paso 3.  Identificación del virus
+Búsqueda de primers universales para especies del género Flavivirus.
+
+
